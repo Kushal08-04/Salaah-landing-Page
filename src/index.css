@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Footer icon grayscale hover effect */
+.footer-icon img {
+  filter: grayscale(100%) opacity(.6);
+  transition: filter .18s, opacity .18s;
+}
+.footer-icon:hover img {
+  filter: none;
+  opacity: 1;
+}
